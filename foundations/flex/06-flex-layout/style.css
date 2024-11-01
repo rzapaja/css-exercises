@@ -18,9 +18,62 @@ button {
   background: #eee;
 }
 
+a {
+  text-decoration: none;
+}
+
+ul{
+  list-style-type: none;
+  display: inline;
+}
+
+li{
+  display: inline;
+}
+
 input {
   border: 1px solid #ddd;
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+#container{
+  display: flex;
+  flex-direction: column;
+  height:100vh;
+  justify-content: space-between;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  background-color: #eee;
+}
+
+.header li a{
+  padding:10px;
+  color:#aaa;
+}
+
+.footer li a{
+  padding: 10px;
+  color:#5e5e5e
+
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:20px;
+}
+
+.buttons button{
+  padding:6px 10px;
 }
